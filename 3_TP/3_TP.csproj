@@ -49,6 +49,13 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\core\commands\Class4.cs" />
+    <Compile Include="src\core\commands\infections\Class1.cs" />
+    <Compile Include="src\core\commands\Interface1.cs" />
+    <Compile Include="src\core\commands\population\Class2.cs" />
+    <Compile Include="src\core\commands\salaries\Class3.cs" />
+    <Compile Include="src\core\presenter\Class5.cs" />
+    <Compile Include="src\core\presenter\Interface2.cs" />
     <Compile Include="src\view\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +71,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="src\view\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -79,10 +89,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="assets\" />
-    <Folder Include="src\core\commands\infections\" />
-    <Folder Include="src\core\commands\population\" />
-    <Folder Include="src\core\commands\salaries\" />
-    <Folder Include="src\core\presenter\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

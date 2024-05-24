@@ -7,7 +7,7 @@ using System.Windows.Forms.DataVisualization.Charting;
 
 namespace _3_TP.src.view
 {
-    internal interface IChartView
+    public interface IChartView
     {
         event Action RequestedStatistics;
         event Action<String> ChangedCommand;

@@ -52,9 +52,10 @@
     <Compile Include="src\core\commands\AbstractCommandFactory.cs" />
     <Compile Include="src\core\commands\infections\Class1.cs" />
     <Compile Include="src\core\commands\IChartCommand.cs" />
-    <Compile Include="src\core\commands\population\Class2.cs" />
+    <Compile Include="src\core\commands\population\PopulationCommand.cs" />
+    <Compile Include="src\core\commands\population\PopulationCommandFactory.cs" />
     <Compile Include="src\core\commands\salaries\Class3.cs" />
-    <Compile Include="src\core\presenter\Class5.cs" />
+    <Compile Include="src\core\presenter\AbstractCommandFactory.cs" />
     <Compile Include="src\core\presenter\IChartPresenter.cs" />
     <Compile Include="src\view\Form1.cs">
       <SubType>Form</SubType>

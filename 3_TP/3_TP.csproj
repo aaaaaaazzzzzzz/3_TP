@@ -54,7 +54,8 @@
     <Compile Include="src\core\commands\IChartCommand.cs" />
     <Compile Include="src\core\commands\population\PopulationCommand.cs" />
     <Compile Include="src\core\commands\population\PopulationCommandFactory.cs" />
-    <Compile Include="src\core\commands\salaries\Class3.cs" />
+    <Compile Include="src\core\commands\salaries\SalariesCommandFactory.cs" />
+    <Compile Include="src\core\commands\salaries\SalariesCommand.cs" />
     <Compile Include="src\core\presenter\AbstractCommandFactory.cs" />
     <Compile Include="src\core\presenter\IChartPresenter.cs" />
     <Compile Include="src\view\Form1.cs">

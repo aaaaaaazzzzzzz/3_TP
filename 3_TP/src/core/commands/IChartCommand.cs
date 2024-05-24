@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _3_TP.src.core.commands
 {
-    internal interface Interface1
+    internal interface IChartCommand
     {
     }
 }

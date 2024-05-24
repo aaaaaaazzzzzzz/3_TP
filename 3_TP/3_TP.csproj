@@ -49,9 +49,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="src\core\commands\Class4.cs" />
+    <Compile Include="src\core\commands\AbstractCommandFactory.cs" />
     <Compile Include="src\core\commands\infections\Class1.cs" />
-    <Compile Include="src\core\commands\Interface1.cs" />
+    <Compile Include="src\core\commands\IChartCommand.cs" />
     <Compile Include="src\core\commands\population\Class2.cs" />
     <Compile Include="src\core\commands\salaries\Class3.cs" />
     <Compile Include="src\core\presenter\Class5.cs" />

@@ -11,6 +11,7 @@ namespace _3_TP.src.core.presenter
     {
         //IChartView View { set; }
 
+
         /// <summary>
         /// Выводит на экран график [series]
         /// </summary>

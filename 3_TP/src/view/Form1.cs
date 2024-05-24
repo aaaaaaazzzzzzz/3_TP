@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _3_TP
+namespace _3_TP.src.view
 {
     public partial class Form1 : Form
     {

@@ -19,7 +19,7 @@ namespace _3_TP.src.core.commands.salaries
 
         public void Run(IChartPresenter presenter)
         {
-            // Table display
+            // Отображение таблицы
             List<string> columnsName = new List<string>() { "Год", "Мужчины", "Женщины" };
             List<List<string>> rows = new List<List<string>>();
             for (int i = 0; i < data.Count; i++)
@@ -28,7 +28,7 @@ namespace _3_TP.src.core.commands.salaries
             }
             presenter.ShowGrid(columnsName, rows);
 
-            // Chart display
+            // Отображение графиков
             Series menSeries = new Series();
             menSeries.ChartType = SeriesChartType.Spline;
             menSeries.YAxisType = AxisType.Primary;
@@ -43,8 +43,8 @@ namespace _3_TP.src.core.commands.salaries
 
             presenter.ShowChart(new List<Series> { menSeries, womenSeries });
 
-            // Info display
-            presenter.ShowAdditionalInfo("Медианные зарплаты за последние 15 лет.");
+            // Отображение информации
+            presenter.ShowAdditionalInfo("Медианные зарплаты за последние 15 лет");
         }
     }
 }

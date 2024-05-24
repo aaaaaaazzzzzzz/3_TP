@@ -12,6 +12,7 @@ namespace _3_TP.src.core.commands.population
         {
             var data =
                 csv.Split('\n').ToList()
+                .Where(line => !string.IsNullOrWhiteSpace(line))
                 .Select((e) => e.Split(';')
                     .Select((num) => float.Parse(num)).ToList())
                 .ToList();

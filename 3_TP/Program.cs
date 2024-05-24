@@ -1,4 +1,6 @@
-﻿using _3_TP.src.view;
+﻿using _3_TP.src.core.presenter;
+using _3_TP.src.view;
+using _3_TP.src.core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +19,7 @@ namespace _3_TP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form1(new ChartPresenter()));
         }
     }
 }

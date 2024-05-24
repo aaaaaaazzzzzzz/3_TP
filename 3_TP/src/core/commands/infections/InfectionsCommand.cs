@@ -83,7 +83,7 @@ namespace _3_TP.src.core.commands.infections
                 presenter.ShowChart(new List<Series> { orviSeries, tbSeries, tickSeries, hepSeries, hivSeries });
 
                 // Информация о снижении заболеваемости
-                presenter.ShowAdditionalInfo("Дополнительная информация отсуствует");
+                presenter.ShowAdditionalInfo("Численность инфекционных заболеваний в РФ за последние 15 лет (на 100 тыс. человек)");
             }
         }
     }

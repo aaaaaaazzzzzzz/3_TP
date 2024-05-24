@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _3_TP.src.view;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace _3_TP.src.core.presenter
 {
     public interface IChartPresenter
     {
-        //IChartView View { set; }
+        IChartView View { set; }
 
 
         /// <summary>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _3_TP.src.core.presenter;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,9 +18,10 @@ namespace _3_TP.src.view
         public event Action RequestedStatistics;
         public event Action<string> ChangedCommand;
 
-        public Form1()
+        public Form1(IChartPresenter presenter)
         {
             InitializeComponent();
+            presenter.View = this;
         }
         public void ShowAdditionalInfo(string info)
         {
